@@ -10,7 +10,7 @@ var keys = require ("./keys.js");
 var spotify = new Spotify(keys.spotify);
 var client = new Twitter(keys.twitter);
 
-//Input from user
+//Input from user in terminal
 var args = process.argv.slice(2);
 
 
